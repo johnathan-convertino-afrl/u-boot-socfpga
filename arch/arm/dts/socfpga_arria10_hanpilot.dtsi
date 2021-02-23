@@ -167,16 +167,3 @@
 &watchdog1 {
 	status = "okay";
 };
-
-/* Clock available early */
-&main_periph_ref_clk {
-	u-boot,dm-pre-reloc;
-};
-
-&l4_mp_clk {
-	u-boot,dm-pre-reloc;
-};
-
-&l4_sp_clk {
-	u-boot,dm-pre-reloc;
-};
