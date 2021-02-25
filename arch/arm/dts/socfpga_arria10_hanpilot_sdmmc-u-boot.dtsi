@@ -6,7 +6,7 @@
 #include "socfpga_arria10_hanpilot_sdmmc_handoff.h"
 #include "socfpga_arria10-handoff.dtsi"
 #include "socfpga_arria10_handoff_u-boot.dtsi"
-#include "socfpga_arria10_hanpilot.dtsi"
+#include "socfpga_arria10_hanpilot-u-boot.dtsi"
 
 / {
 	chosen {
